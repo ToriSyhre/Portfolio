@@ -1,11 +1,14 @@
-body {
+* {
+  box-sizing: border-box;
+}
 
+body {
   font-family: 'Rokkitt', serif;
   font-size:18px;
   font-weight:200;
   font-height: 1.6;
-  color: #342C1E;
-  background-color: #FAF2E4;
+  color: #111111;
+  background-color: #faf2e4;
 }
 
 h1, h2, h3, h4 {
@@ -13,7 +16,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 2.50em;
   font-weight: 600;
 }
 
@@ -26,7 +29,7 @@ h3 {
   font-family: 'Montserrat', serif;
   font-size: 1.75em;
   font-weight: 500;
-  color: #F7C969;
+  color: #f7c969;
 }
 
 h4 {
@@ -42,67 +45,156 @@ img {
 
 a {
   font-weight: 400;
-  color: #89B3AB;
-  text-decoration: none; /* No underlining */
+  color: #fefbf8;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #B3CCC7;
+  color: #f7c969;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:active { /* selected link */
-  color: #F7C969;
+  color: #f7c969;
 }
 
 .button {
   font-family: 'Montserrat', serif;
   font-size:16px;
   display: inline-block;
-  background-color: #FEFBF8;
-  color: #66573D;
+  background-color: #fefbf8;
+  color: #66573d;
   padding: 10px; /* font spacing from button frame */
   border-radius: 3px; /* rounded corners */
-  border-bottom: 2px solid #B9A189; /* border width, type, color */
+  border-bottom: 2px solid #b9a189; /* border width, type, color */
   transition: 0.2s opacity;
 }
 
 .button:hover {
-  color : #B9A189;
+  color : #b9a189;
   text-decoration: underline;
 }
 
 .button-contact {
   font-family: 'Montserrat', serif;
   font-size:16px;
-  background-color: #B9A189;
-  color: #66573D;
+  background-color: #b9a189;
+  color: #66573d;
   text-transform: uppercase;
   padding: 10px; /* font spacing from button frame */
-  border-bottom: 2px solid #66573D;
+  border-bottom: 2px solid #66573d;
 }
 
 .button-contact:hover {
-  background-color: #FEFBF8;
+  background-color: #fefbf8;
   color: #B9A189;
 }
 
 .link-social {
   font-family: 'Montserrat', serif;
   font-size:16px;
-  color: #FF9C85;
+  color: #ff9c85;
 }
 
 .link-social:hover {
-  color: #FF7A5B;
+  color: #ff7a5b;
   text-decoration: underline;
+}
+
+.link-call {
+  color: #ff7a5b;
+  font-weight: 600;
+}
+
+.link-call:hover {
+  color: #ff7a5b;
+  font-weight: 600;
+  opacity: .60;
 }
 
     /*
 Colors used:
-Primary Color (Off White): #e3bb84;
-Secondary Color (Contrast White): #d4a06a
-Fashion Color (Salmon): #ea8570
-Text Color (Choc Brown): #66573D;
+Primary Color (Off White): #e3bb84
+Secondary Color (Contrast White): #9ba189
+Social Color (Salmon): #ff9c85
+Text Color (Choc Brown): #342c1e
+Text Color (Off-White):fefbf8
 */
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#projects .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #342c1e;
+}
+
+#hero h1, h2, p {
+  text-align: center;
+}
+
+#contact h3 {
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  max-width: 250px
+}
+
+header {
+  background-color: #b9a189;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 4px 4px 24px 0px rgba(50, 50, 50, 0.5);
+  position: fixed;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  font-weight: 700;
+  color: #fefbf8;
+}
+
+nav > ul > li > a:hover {
+  color: #f7c969;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:active {
+  color: #c4883f;
+  text-decoration: underline;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 100px;
+}

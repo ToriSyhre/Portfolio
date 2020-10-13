@@ -7,20 +7,19 @@
   <title>Sante Project</title>
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@200;300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
+  <header id="header">
     <!--Start Header Section-->
     <div class="container">
       <!-- Start navigation -->
-      <a href="index.html">Tori Syhre</a>
+      <a href="index.html" class="logo">Tori Syhre</a>
       <nav>
-        <ul class="navigation">
+        <ul>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -31,9 +30,9 @@
   <!--End Header Section-->
 
   <main>
-    <div id="main">
+    <div id="hero">
       <!--Start Block-->
-      <div>
+      <div class="container">
         <!--Start Content-->
         <h1>Sante</h1>
         <p>Sante is an inclusive plant based recipe app that is here to help change the way people cook in the kitchen.</p>
@@ -259,20 +258,20 @@
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <!--Start Footer Section-->
       <h2>Let's Connect</h2>
-      <p>If you'd like to discuss opportunities you can <a href="tel:0016314593777">call</a> me.</p>
+      <p>If you'd like to discuss opportunities you can <a href="tel:0016314593777" class="link">call</a> me.</p>
       <div>
         <!--Start Email Section-->
-        <a href="mailto:tori.syhre@gmail.com">Email</a>
+        <a href="mailto:tori.syhre@gmail.com" class="button-contact">Email</a>
       </div>
       <!--End Email Section-->
-      <div>
+      <div class = social-media>
         <!--Start Social Section-->
-        <ul class="list">
+        <ul>
           <li>
-            <a href="https://www.linkedin.com/in/tori-grasso-syhre-10a8231a/" class="link-social" Target="_blank">LinkedIN
+            <a href="https://www.linkedin.com/in/tori-grasso-syhre-10a8231a/" Target="_blank">
               <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <style>
@@ -296,7 +295,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.behance.net/victoriagrasso" class="link-social" Target="_blank">Behance
+            <a href="https://www.behance.net/victoriagrasso" Target="_blank">
               <svg viewBox="0 0 28.87 28.87" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <style>
@@ -327,7 +326,9 @@
         </ul>
       </div>
       <!--End Social Section-->
-      <p>copyright Tori Syhre 2020</p>
+        <div class="copyright">
+          <p>copyright Tori Syhre 2020</p>
+        </div>
     </div>
     <!--End Footer Section-->
   </footer>

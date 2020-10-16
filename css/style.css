@@ -41,7 +41,7 @@ body {
     typography
     =================== */
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
   line-height: 1.0;
 }
 
@@ -63,7 +63,7 @@ h3 /* Titles */ {
   margin: 20px;
 }
 
-h4 /* Sub-Titles */ {
+h4, h5 /* Sub-Titles */ {
   font-family: 'Montserrat', serif;
   color: #66573d; /* Light Brown */
   font-size: 1.25em; /* 1.25*bigger than body font */
@@ -96,8 +96,9 @@ img {
   border-radius: 4px; /* rounded corners */
 }
 
-svg {
-  width: 10%;
+.social-media-icon {
+  width: 50px;
+  height: 50px;
 }
 
 /* ===================
@@ -115,7 +116,7 @@ svg {
 
     /* === header === */
 
-#header {
+header {
   text-align: center;
   padding: 10px;
   margin: 10px;
@@ -126,8 +127,8 @@ svg {
 }
 
 .logo {
-  font-size: 22px;
   max-width: 250px;
+  font-size: 22px;
 }
 
 nav {
@@ -149,8 +150,8 @@ nav a {
   font-weight: 500;
 }
 
-nav a: hover {
-  color: #f7c969
+nav a:hover {
+  color: #f7c969:
   text-decoration: underline;
 }
 
@@ -186,6 +187,7 @@ main {
 .social-media {
   display: inline-block;
 }
+
 .social-media ul {
   list-style-type: none;
   padding: 0;
@@ -244,4 +246,116 @@ main {
   color: #ff9c85;
   text-decoration: underline;
   font-weight: 500; /* semi-bold montserrat */
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+  /* ===================
+      global styles
+      =================== */
+
+body {
+  font-size: 20px;
+}
+
+button: 18px;
+
+.container {
+  text-align: unset;
+}
+
+  /* ===================
+      layout
+      =================== */
+
+        /* === header === */
+
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+  position: unset;
+}
+
+nav {
+  width: auto;
+  margin: 4px;
+}
+
+.logo {
+  float: left;
+}
+
+    /* === main === */
+main {
+  padding-top: unset;
+  padding:20px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.skills-tools {
+  text-align: center;
+}
+
+h1 {
+  margin: 15px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 50%; /* img fit 100% of screen */
+  margin: auto;
+  border-radius: 4px; /* rounded corners */
+}
+
+    /* === footer === */
+
+#contact {
+  text-align: center;
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-size: 24px;
+}
+
+.button {
+  font-size: 22px;
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }

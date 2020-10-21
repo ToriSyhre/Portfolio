@@ -285,6 +285,10 @@ body {
 font-size: 18px;
 }
 
+h4 {
+Margin: auto;
+}
+
 /* ===================
 images
 =================== */
@@ -315,10 +319,6 @@ margin: unset;
 padding: unset;
 } /*==this aligns the nav links w/ the logo==*/
 
-h4 {
-Margin: auto;
-}
-
 /* === main === */
 
 .col-md-6 {
@@ -336,10 +336,10 @@ clear: both;
 display: table;
 } /*==float removed the columns from a normal flow and this clears ==*/
 
-/* === footer === */
 
+.skills-tools h4 {
+padding: 25px;
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
@@ -347,7 +347,7 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 
 body {
-font-size: 24px;
+font-size: 22px;
 }
 
 header {
@@ -355,11 +355,11 @@ font-size: 30px;
 }
 
 .col-lg-7 {
-width: 60%;
+width: 70%;
 } /*==this makes each medium screen column 50% of the screen==*/
 
 .col-lg-5 {
-width: 40%;
+width: 30%;
 } /*==this makes each medium screen column 50% of the screen==*/
 
 [class*="col-"] {
@@ -372,10 +372,6 @@ content: "";
 clear: both;
 display: table;
 } /*==float removed the columns from a normal flow and this clears ==*/
-
-.skills-tools {
-padding: 5px;
-}
 
 #hero {
 padding: 0;

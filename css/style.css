@@ -31,170 +31,170 @@ Text Color (Mustard): #f7c969
 global styles
 =================== */
 
-body {
-  font-family: 'Rokkitt', serif;
-  font-size: 16px; /* 16 font */
-  font-weight:200; /* light rokkitt */
-  color: #66573d; /* brown */
-  background-color: #faf2e4; /* cream */
-}
+    body {
+      font-family: 'Rokkitt', serif;
+      font-size: 16px; /* 16 font */
+      font-weight:200; /* light rokkitt */
+      color: #66573d; /* brown */
+      background-color: #faf2e4; /* cream */
+    }
 
 /* ===================
 typography
 =================== */
 
-h1, h2, h3, h4, h5, p {
-  line-height: 1.0;
-}
+    h1, h2, h3, h4, h5, p {
+      line-height: 1.0;
+    }
 
-h1 /* Text Header */ {
-  font-size: 2.50em; /* 2.5*bigger than body font */
-  font-weight: 600; /* bold rokkitt */
-}
+    h1 /* Text Header */ {
+      font-size: 2.50em; /* 2.5*bigger than body font */
+      font-weight: 600; /* bold rokkitt */
+    }
 
-h2 /* Text Sub-Header */ {
-  font-size: 1.75em; /* 1.75*bigger than body font */
-  font-weight: 400; /* medium rokkitt */
-}
+    h2 /* Text Sub-Header */ {
+      font-size: 1.75em; /* 1.75*bigger than body font */
+      font-weight: 400; /* medium rokkitt */
+    }
 
-h3 /* Titles */ {
-  font-family: 'Montserrat', serif;
-  font-size: 1.75em; /* 1.75*bigger than body font */
-  font-weight: 500; /* semi-bold montserrat */
-  color: #f7c969; /* mustard */
-}
+    h3 /* Titles */ {
+      font-family: 'Montserrat', serif;
+      font-size: 1.75em; /* 1.75*bigger than body font */
+      font-weight: 500; /* semi-bold montserrat */
+      color: #f7c969; /* mustard */
+    }
 
-h4, h5 /* Sub-Titles */ {
-  font-family: 'Montserrat', serif;
-  color: #66573d; /* Light Brown */
-  font-size: 1.25em; /* 1.25*bigger than body font */
-  font-weight: 400; /* medium montserrat */
-}
+    h4, h5 /* Sub-Titles */ {
+      font-family: 'Montserrat', serif;
+      color: #66573d; /* Light Brown */
+      font-size: 1.25em; /* 1.25*bigger than body font */
+      font-weight: 400; /* medium montserrat */
+    }
 
-a {
-  font-weight: 400; /* medium montserrat */
-  color: #fefbf8; /* orange */
-  text-decoration: none;
-}
+    a {
+      font-weight: 400; /* medium montserrat */
+      color: #fefbf8; /* orange */
+      text-decoration: none;
+    }
 
-a:hover,
-  a:focus {
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
+    a:hover,
+      a:focus {
+      text-decoration: underline; /* Underlining when hovering over a link */
+    }
 
-a:active { /* selected link */
-  color: #f7c969;
-}
+    a:active { /* selected link */
+      color: #f7c969;
+    }
 
 /* ===================
 images
 =================== */
 
-img {
-  display: block;
-  max-width: 100%; /* img fit 100% of screen */
-  border-radius: 4px; /* rounded corners */
-}
+    img {
+      display: block;
+      max-width: 100%; /* img fit 100% of screen */
+      border-radius: 4px; /* rounded corners */
+    }
 
-.social-media {
-  margin: 0;
-  padding: 0;
-}
+    .social-media {
+      margin: 0;
+      padding: 0;
+    }
 
-.social-media li {
-display: inline-block;
-}
+    .social-media li {
+    display: inline-block;
+    }
 
-.social-media-icon {
-  width: 50px;
-  height: 50px;
-}
+    .social-media-icon {
+      width: 50px;
+      height: 50px;
+    }
 
 /* ===================
 layout
 =================== */
 
-.container {
-  padding: 0 15px;
-}
+    .container {
+      padding: 0 15px;
+    }
 
-.row {
-  margin: 15px 0;
-}
+    .row {
+      margin: 15px 0;
+    }
 
 /* === header === */
 
-header {
-  font-size: 22px;
-  text-align: center;
-  margin-top:5px;
-  padding-top: 15px;
-  position:fixed;
-  width:100%;
-  border-bottom: 3px solid #342c1e;
-  background: #B9A189; /* beige */
-  border-radius: 4px; /* rounded corners */
-  }
+    header {
+      font-size: 22px;
+      text-align: center;
+      margin-top:5px;
+      padding-top: 15px;
+      position:fixed;
+      width:100%;
+      border-bottom: 3px solid #342c1e;
+      background: #B9A189; /* beige */
+      border-radius: 4px; /* rounded corners */
+      }
 
-nav ul {
-  list-style-type: none;
-  padding: 10px;
-  margin: 10px;
-}
+    nav ul {
+      list-style-type: none;
+      padding: 10px;
+      margin: 10px;
+    }
 
-nav li {
-  display: inline-block;
-}
+    nav li {
+      display: inline-block;
+    }
 
-nav a {
-  padding: 0 10px;
-  font-weight: 500;
-}
+    nav a {
+      padding: 0 10px;
+      font-weight: 500;
+    }
 
-nav a:hover {
-  color: #f7c969;
-  text-decoration: underline;
-}
+    nav a:hover {
+      color: #f7c969;
+      text-decoration: underline;
+    }
 
 /* === main === */
 
-main {
-  padding-top: 90px;
-  text-align: center;
-}
+    main {
+      padding-top: 90px;
+      text-align: center;
+    }
 
-#hero {
-  background-color: #faf2e4;
-  padding: 15px 0;
-  display: inline-block;
-  width: 100%;
-}
+    #hero {
+      background-color: #faf2e4;
+      padding: 15px 0;
+      display: inline-block;
+      width: 100%;
+    }
 
-#hero h1 {
-  text-align: center;
-}
+    #hero h1 {
+      text-align: center;
+    }
 
-#projects .row {
-  padding: 20px;
-  border-bottom: 1px solid #b9a189;
-}
+    #projects .row {
+      padding: 20px;
+      border-bottom: 1px solid #b9a189;
+    }
 
-main ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+    main ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
 /* === footer === */
 
-footer {
-  text-align: center;
-}
+    footer {
+      text-align: center;
+    }
 
-.social-media ul {
-  list-style-type: none;
-  padding: 0;
-}
+    .social-media ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
 /* ===================
 components
@@ -202,191 +202,192 @@ components
 
 /* === buttons === */
 
-.button {
-  font-family: 'Montserrat', serif;
-  font-size:14px;
-  font-weight: 500; /* semi-bold montserrat */
-  display: inline-block; /* take inline 'a' element and make block/new line */
-  background-color: #b9a189; /* Off-White */
-  color: #faf2e4; /* beige */
-  padding: 10px; /* in-box spacing - font to edges */
-  border-radius: 3px; /* rounded corners */
-  border-bottom: 2px solid #b9a189; /* bottom border width, type, color */
-  transition-duration: 400ms;
-}
+    .button {
+      font-family: 'Montserrat', serif;
+      font-size:14px;
+      font-weight: 500; /* semi-bold montserrat */
+      display: inline-block; /* take inline 'a' element and make block/new line */
+      background-color: #b9a189; /* Off-White */
+      color: #faf2e4; /* beige */
+      padding: 10px; /* in-box spacing - font to edges */
+      border-radius: 3px; /* rounded corners */
+      border-bottom: 2px solid #b9a189; /* bottom border width, type, color */
+      transition-duration: 400ms;
+    }
 
-.button:hover {
-  color : #342c1e; /* choco */
-  background-color: #f7c969; /* mustard */
-  font-weight: 500; /* semi-bold montserrat */
-  text-decoration: underline; /* underline when mouse hovers over link */
-}
+    .button:hover {
+      color : #342c1e; /* choco */
+      background-color: #f7c969; /* mustard */
+      font-weight: 500; /* semi-bold montserrat */
+      text-decoration: underline; /* underline when mouse hovers over link */
+    }
 
-.link {
-  font-family: 'Montserrat', serif;
-  font-size: 16px;
-  color: #ff7a5b; /* orange */
-  font-weight: 600; /* semi-bold montserrat */
-  transition: 400ms opacity;
-}
+    .link {
+      font-family: 'Montserrat', serif;
+      font-size: 16px;
+      color: #ff7a5b; /* orange */
+      font-weight: 600; /* semi-bold montserrat */
+      transition: 400ms opacity;
+    }
 
-.link:hover {
-  text-decoration: underline;
-  font-weight: 500; /* semi-bold montserrat */
-  opacity: 0.8;
-}
+    .link:hover {
+      text-decoration: underline;
+      font-weight: 500; /* semi-bold montserrat */
+      opacity: 0.8;
+    }
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 /*==keyframes==*/
 
-@keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
-}
+    @keyframes color-change {
+      from {fill: #edc655;}
+      to {fill: #f76414;}
+    }
 
-.sun {
-  animation-duration: 10s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
+    .sun {
+      animation-duration: 10s;
+      animation-name: color-change;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+    }
 
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
+    @keyframes cloud-move {
+      from {transform: translate(0,50px);}
+      to {transform: translate(200px,50px);}
+    }
 
-.cloud-front {
-  animation: 20s cloud-move infinite alternate linear;
-}
+    .cloud-front {
+      animation: 20s cloud-move infinite alternate linear;
+    }
 
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
+    @keyframes cloud-move-reverse {
+      from {transform: translate(446px,48px);}
+      to {transform: translate(100px, 48px);}
+    }
 
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
+    .cloud-back {
+      animation: 34s cloud-move-reverse infinite alternate linear;
+    }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
-/* ===================
-global styles
-=================== */
+  /* ===================
+  global styles
+  =================== */
 
-body {
-  font-size: 18px;
+      body {
+        font-size: 18px;
+      }
+
+      h4 {
+        Margin: auto;
+      }
+
+  /* ===================
+  images
+  =================== */
+
+      .profile {
+        margin: auto;
+        width: 50%;
+      }
+
+  /* ===================
+  layout
+  =================== */
+
+    /* === header === */
+
+          header {
+            font-size: 26px;
+            text-align: unset;
+            padding: 20px 0 13px;
+          } /*==this corrects header for larger screen - uncentered text and spacing==*/
+
+          nav {
+            float: right;
+          }
+
+          nav ul {
+            margin: unset;
+            padding: unset;
+          } /*==this aligns the nav links w/ the logo==*/
+
+    /* === main === */
+          .skills-tools h4 {
+            padding: 25px;
+          }
+
+          .col-md-6 {
+            width: 50%;
+          } /*==this makes each medium screen column 50% of the screen==*/
+
+          [class*="col-"] {
+            float: left;
+            padding: 10px;
+          } /*==float allows the columns to align next to each other, forcing left.==*/
+
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          } /*==float removed the columns from a normal flow and this clears ==*/
 }
-
-h4 {
-  Margin: auto;
-}
-
-/* ===================
-images
-=================== */
-
-.profile {
-  margin: auto;
-  width: 50%;
-}
-
-/* ===================
-layout
-=================== */
-
-/* === header === */
-
-header {
-  font-size: 26px;
-  text-align: unset;
-  padding: 20px 0 13px;
-} /*==this corrects header for larger screen - uncentered text and spacing==*/
-
-nav {
-  float: right;
-}
-
-nav ul {
-  margin: unset;
-  padding: unset;
-} /*==this aligns the nav links w/ the logo==*/
-
-/* === main === */
-.skills-tools h4 {
-  padding: 25px;
-}
-
-.col-md-6 {
-  width: 50%;
-} /*==this makes each medium screen column 50% of the screen==*/
-
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-} /*==float allows the columns to align next to each other, forcing left.==*/
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} /*==float removed the columns from a normal flow and this clears ==*/
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-body {
-  font-size: 22px;
-}
+  body {  
+    font-size: 22px;
+  }
 
-header {
-  font-size: 30px;
-}
+  header {
+    font-size: 30px;
+  }
 
-.col-lg-7 {
-  width: 70%;
-} /*==this makes each medium screen column 50% of the screen==*/
+  .col-lg-7 {
+    width: 70%;
+  } /*==this makes each medium screen column 50% of the screen==*/
 
-.col-lg-5 {
-  width: 30%;
-} /*==this makes each medium screen column 50% of the screen==*/
+  .col-lg-5 {
+    width: 30%;
+  } /*==this makes each medium screen column 50% of the screen==*/
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-} /*==float allows the columns to align next to each other, forcing left.==*/
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  } /*==float allows the columns to align next to each other, forcing left.==*/
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} /*==float removed the columns from a normal flow and this clears ==*/
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } /*==float removed the columns from a normal flow and this clears ==*/
 
-#hero {
-  padding: 0;
-}
+  #hero {
+    padding: 0;
+  }
 
-h2, h3 {
-  margin: 25px;
-}
+  h2, h3 {
+    margin: 25px;
+  }
 
-h4 {
-  margin: 10px;
-}
+  h4 {
+    margin: 10px;
+  }
 
-.button {
-  font-size: 18px;
-}
+  .button {
+    font-size: 18px;
+  }
 } 

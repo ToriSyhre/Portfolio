@@ -126,24 +126,23 @@ layout
 
     header {
       font-size: 22px;
-      text-align: center;
       margin-top:5px;
       padding-top: 15px;
       position:fixed;
-      width:100%;
+      width: 100%;
       border-bottom: 3px solid #342c1e;
       background: #B9A189; /* beige */
       border-radius: 4px; /* rounded corners */
       }
 
-    nav ul {
-      list-style-type: none;
-      padding: 10px;
-      margin: 10px;
+    .logo {
+      max-width: 150px;
     }
 
-    nav li {
-      display: inline-block;
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px;
     }
 
     nav a {
@@ -156,10 +155,40 @@ layout
       text-decoration: underline;
     }
 
+    .navtoggle li:not(:last-child) {
+      display: none;
+    }
+
+    .navtoggle, .navtoggle.responsive {
+      position: relative;
+    }
+
+    .navtoggle li .icon {
+      position: absolute;
+      right: 0;
+      top: 2px;
+      font-size: 20px;
+      padding-right: 0;
+    }
+
+    .navtoggle.responsive nav {
+      padding: 24px 0 0;
+    }
+
+    .navtoggle.responsive li  {
+      display: block;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255,127,80,0.5);
+    }
+
+    .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+    }
+
 /* === main === */
 
     main {
-      padding-top: 90px;
+      padding-top: 56px;
       text-align: center;
     }
 
@@ -244,36 +273,6 @@ components
 
 /*==keyframes==*/
 
-    @keyframes color-change {
-      from {fill: #edc655;}
-      to {fill: #f76414;}
-    }
-
-    .sun {
-      animation-duration: 10s;
-      animation-name: color-change;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-      animation-timing-function: linear;
-    }
-
-    @keyframes cloud-move {
-      from {transform: translate(0,50px);}
-      to {transform: translate(200px,50px);}
-    }
-
-    .cloud-front {
-      animation: 20s cloud-move infinite alternate linear;
-    }
-
-    @keyframes cloud-move-reverse {
-      from {transform: translate(446px,48px);}
-      to {transform: translate(100px, 48px);}
-    }
-
-    .cloud-back {
-      animation: 34s cloud-move-reverse infinite alternate linear;
-    }
 
 /* ==============================
 Medium devices (640px and larger)
@@ -322,6 +321,18 @@ Medium devices (640px and larger)
             padding: unset;
           } /*==this aligns the nav links w/ the logo==*/
 
+          nav > ul > li {
+            display: inline-block;
+          }
+
+          .navtoggle li:not(:last-child) {
+            display: inline-block;
+            }
+
+          .navtoggle li:last-child {
+            display: none;
+            }
+
     /* === main === */
           .skills-tools h4 {
             padding: 25px;
@@ -348,12 +359,16 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  body {  
+  body {
     font-size: 22px;
   }
 
   header {
     font-size: 30px;
+  }
+
+  .logo {
+    min-width: 641px
   }
 
   .col-lg-7 {
@@ -390,4 +405,4 @@ Large devices (1024px or larger)
   .button {
     font-size: 18px;
   }
-} 
+}

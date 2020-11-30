@@ -35,7 +35,7 @@ body {
   font-size: 16px; /* 16 font */
   font-weight: 200; /* light rokkitt */
   color: #66573d; /* brown */
-  background-color: White; /* cream */
+  background-color: #fefbf8; /* cream */
 }
 
 /* ===================
@@ -188,10 +188,15 @@ nav a:hover {
   padding: 0 0 10px;
 }
 
+.dreams {
+  margin: 25px;
+}
+
 /* === main === */
 main {
   padding-top: 56px;
   text-align: center;
+  background-color: #fefbf8;
 }
 
 #hero {

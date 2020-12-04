@@ -73,7 +73,7 @@ h4,
 h5 /* Sub-Titles */ {
   font-family: 'Montserrat', serif;
   color: #f7c969; /* Light Brown */
-  font-size: 1.5 em; /* 1.25*bigger than body font */
+  font-size: 1.5em; /* 1.25*bigger than body font */
   font-weight: 500; /* medium montserrat */
 }
 
@@ -363,15 +363,6 @@ Large devices (1024px or larger)
 
   .logo {
     min-width: 641px;
-  }
-
-  .col-lg-7 {
-    width: 70%;
-  }
-
-  /* ==this makes each medium screen column 50% of the screen== */
-  .col-lg-5 {
-    width: 30%;
   }
 
   /* ==this makes each medium screen column 50% of the screen== */

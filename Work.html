@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Tori</title>
+  <title>Experience</title>
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
@@ -22,9 +22,10 @@
         <a href="index.html" class="logo">Tori Syhre</a>
         <nav>
           <ul>
-            <li><a href="index.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
@@ -36,66 +37,66 @@
   <main>
     <div id="hero">
       <!--Start About Header Block-->
-      <div class="container">
-      <div class="column col-md-6 col-lg-7">
-        <!--Start My Story-->
-        <h3>Experience</h3>
-        <p>I am a web designer with a background in retail, specifically as an apparel buyer. I have experience building strategies for ecommerce sites, identifying market trends and most importantly, captivating consumers with exciting new product.
-          I have the ability to conceptualize consumer facing product stories with the goal to increase engagement. Identifying opportunities and utilizing internal data to learn more about the consumer’s needs is what I have enjoyed most in my
-          career.</p>
-        <p>I am an independent worker with the ability to communicate efficiently with multiple teams to gather information, analyze data, and meet deadlines. I am ready to leverage my skills and connect with a consumer in a different format, with
-          technology. </p>
-        <p>Please feel free to reach out with opportunities in Portland, Oregon. </p>
-        <a href="files/resume.pdf" class="button" target="_blank">View Resume </a>
+      <div id="projects">
+        <!--Start Work Section-->
+        <div class="container">
+          <!--Start Project Section-->
+          <h1>Projects</h1>
+          <div class="row">
+            <!--Start Project 1-->
+            <div class="column col-md-6 col-lg-7">
+              <!--Start Project Image-->
+              <picture>
+                <source srcset="img/sante/homepage/sante-main-sm.jpg" media="(max-width:767px)">
+                <img src="img/sante/homepage/sante-main-lg.jpg" alt="Sante">
+              </picture>
+            </div>
+            <!--End Project Image-->
+            <div class="column col-md-6 col-lg-5">
+              <!--Start Project Text-->
+              <h4>Sante</h4>
+              <p>Sante is an inclusive plant based recipe app that is here to show you how easy it is to prepare plant based meals.</p>
+              <a href="santeproject.html" class="button">View Project</a>
+            </div>
+            <!--End Project Text-->
+          </div>
+          <!--End Project 1-->
+
+          <div class="row">
+            <!--Start Project 2-->
+            <div class="column col-md-6 col-lg-7">
+              <!--Start Project Image-->
+              <picture>
+                <source srcset="img/dreams/homepage/dreams@1x.jpg" media="(max-width:767px)">
+                <img src="img/dreams/homepage/dreams@2x.jpg" alt="Dreams">
+              </picture>
+            </div>
+            <!--End Project Image-->
+            <div class="column col-md-6 col-lg-5">
+              <!--Start Project Text-->
+              <h4>Dreams</h4>
+              <p>Dreams is here to change the industry standards and empower couples to plan their wedding or elopement, exactly how they want.</p>
+              <a href="dreamsproject.html" class="button">View Project</a>
+            </div>
+            <!--End Project Text-->
+          </div>
+          <!--End Project 2-->
+        </div>
+        <!--End Projects Section-->
       </div>
-      <!--End My Story-->
-      <div class="column col-md-6 col-lg-5">
-        <!--Start Skills.Tools-->
-        <h3>Skills & Tools</h3>
-        <div class="skills-tools">
-          <!--Start Skills-->
-          <h4>Relevant Skills</h4>
-          <ul>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>User Persona Development</li>
-            <li>Brand Creation</li>
-          </ul>
-        </div>
-        <!--End Skills-->
-        <div class="skills-tools">
-          <!--Start Tools-->
-          <h4>Tools I Use</h4>
-          <ul>
-            <li>Sketch</li>
-            <li>Adobe XD</li>
-            <li>InVision</li>
-          </ul>
-          <div class="skills-tools">
-            <!--Start Tools-->
-            <h4>Contact</h4>
-            <a href="mailto:tori.syhre@gmail.com" class="button">Email</a>
-            <p> <a href="tel:0016314593777" class="link">Call</a> </p>
-        </div>
-        </div>
-        <!--End Tools-->
-      </div>
-      <!--End Skills.Tools-->
+      <!--End Work Section-->
     </div>
-    <!--End Text-->
-    </div>
-    <!--End My Story.Skills.Tools Content-->
-    </div>
-    <!--End My Story.Skills.Tools Block-->
-    </div>
-  </div>
+    <!--End Main Section-->
   </main>
 
   <footer id="contact">
     <div class="container">
       <!--Start Footer Section-->
       <h3>Let's Connect</h3>
-      <!--End Email Section-->
+      <div>
+        <a href="mailto:tori.syhre@gmail.com" class="button">Email</a>
+      </div>
+    </div>
       <div class=social-media>
         <!--Start Social Section-->
         <ul>
@@ -158,7 +159,6 @@
       <div class="copyright">
         <p>copyright Tori Syhre 2020</p>
       </div>
-    </div>
     <!--End Footer Section-->
   </footer>
 

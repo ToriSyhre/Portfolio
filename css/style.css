@@ -53,27 +53,28 @@ p {
 h1
 /* Text Header */ {
   font-size: 2.5em; /* 2.5*bigger than body font */
-  font-weight: 600; /* bold rokkitt */
+  font-weight: 500; /* bold rokkitt */
+  color: #342c1e;
 }
 
 h2 /* Text Sub-Header */ {
-  font-size: 1.75em; /* 1.75 bigger than body font */
+  font-size: 1.5em; /* 1.75 bigger than body font */
   font-weight: 400; /* medium rokkitt */
 }
 
 h3 /* Titles */ {
-  font-family: 'Montserrat', serif;
-  font-size: 1.75em; /* 1.75*bigger than body font */
+  font-size: 2.0em; /* 1.75*bigger than body font */
   font-weight: 500; /* semi-bold montserrat */
-  color: #f7c969; /* mustard */
+  margin: 10px;
+  color: #f7c969;
 }
 
 h4,
 h5 /* Sub-Titles */ {
   font-family: 'Montserrat', serif;
-  color: #66573d; /* Light Brown */
-  font-size: 1.25em; /* 1.25*bigger than body font */
-  font-weight: 400; /* medium montserrat */
+  color: #f7c969; /* Light Brown */
+  font-size: 1.5 em; /* 1.25*bigger than body font */
+  font-weight: 500; /* medium montserrat */
 }
 
 a {
@@ -118,7 +119,7 @@ img {
 layout
 =================== */
 .container {
-  padding: 0 15px;
+  padding: 10px;
 }
 
 .row {
@@ -188,19 +189,13 @@ nav a:hover {
   padding: 0 0 10px;
 }
 
-.dreams {
-  margin: 25px;
-}
-
 /* === main === */
 main {
-  padding-top: 56px;
+  padding-top: 60px;
   text-align: center;
-  background-color: #fefbf8;
 }
 
 #hero {
-  background-color: #faf2e4;
   padding: 15px 0;
   display: inline-block;
   width: 100%;
@@ -239,7 +234,7 @@ components
 
 .button {
   font-family: 'Montserrat', serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500; /* semi-bold montserrat */
   display: inline-block; /* take inline 'a' element and make block/new line */
   background-color: #b9a189; /* Off-White */
@@ -297,10 +292,6 @@ Medium devices (640px and larger)
   /* ===================
   images
   =================== */
-  .profile {
-    margin: auto;
-    width: 50%;
-  }
 
   /* ===================
   layout
@@ -308,7 +299,7 @@ Medium devices (640px and larger)
 
   /* ==header== */
   header {
-    font-size: 26px;
+    font-size: 22px;
     text-align: unset;
     padding: 20px 0 13px;
   }
@@ -337,9 +328,6 @@ Medium devices (640px and larger)
   }
 
   /* === main === */
-  .skills-tools h4 {
-    padding: 25px;
-  }
 
   .col-md-6 {
     width: 50%;
@@ -406,7 +394,7 @@ Large devices (1024px or larger)
 
   h2,
   h3 {
-    margin: 25px;
+    margin: 15px;
   }
 
   h4 {

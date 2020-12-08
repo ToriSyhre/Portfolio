@@ -63,7 +63,7 @@ h2 /* Text Sub-Header */ {
 }
 
 h3 /* Titles */ {
-  font-size: 2.0em; /* 1.75*bigger than body font */
+  font-size: 2em; /* 1.75*bigger than body font */
   font-weight: 500; /* semi-bold montserrat */
   margin: 10px;
   color: #f7c969;
